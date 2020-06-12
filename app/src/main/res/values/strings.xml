@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Wolo Codes</string>
+    <string name="asset_statements" translatable="false">[{ \"include\": \"https://wolo.codes/.well-known/assetlinks.json\" }]</string>
 </resources>
