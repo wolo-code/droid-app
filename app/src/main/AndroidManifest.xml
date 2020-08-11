@@ -15,7 +15,7 @@
             android:resource="@string/asset_statements" />
 
         <activity
-            android:name="android.support.customtabs.trusted.LauncherActivity"
+            android:name="com.google.androidbrowserhelper.trusted.LauncherActivity"
             android:label="${launcherName}">
 
             <meta-data
