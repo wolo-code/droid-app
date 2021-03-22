@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         release {
-            storeFile file('C:\\Users\\Ujjwal\\Projects\\WCode\\Wolo\\App\\Droid\\KS\\Wolo.jks')
+            storeFile file('C:\\Users\\Ujjwal\\Projects\\WCode\\Wolo\\App\\Android\\KS\\Wolo.jks')
             storePassword 'WhiteDeath!SuperDuper'
             keyAlias 'key0'
             keyPassword 'DasBoot!SuperDuper'
