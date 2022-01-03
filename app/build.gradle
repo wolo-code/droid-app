@@ -9,12 +9,12 @@ android {
             keyPassword 'DasBoot!SuperDuper'
         }
     }
-    compileSdkVersion 30
+    compileSdkVersion 31
 
     defaultConfig {
         applicationId "codes.wolo.droid"
         minSdkVersion 16
-        targetSdkVersion 30
+        targetSdkVersion 31
         versionCode 4
         versionName "1.2.1"
 
