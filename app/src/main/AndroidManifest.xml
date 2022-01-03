@@ -17,8 +17,8 @@
 
         <activity
             android:name="com.google.androidbrowserhelper.trusted.LauncherActivity"
-            android:label="${launcherName}">
-
+            android:label="${launcherName}"
+            android:exported="true">
             <meta-data
                 android:name="android.support.customtabs.trusted.DEFAULT_URL"
                 android:value="${defaultUrl}" />
@@ -42,7 +42,8 @@
         </activity>
 
         <activity
-            android:name="codes.wolo.droid.ForwardIntentGeoActivity">
+            android:name="codes.wolo.droid.ForwardIntentGeoActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
