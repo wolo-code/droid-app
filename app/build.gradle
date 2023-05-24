@@ -23,7 +23,7 @@ android {
         manifestPlaceholders = [
                 hostName: "wolo.codes",
                 defaultUrl: "https://wolo.codes",
-                launcherName: "Wolo Codes",
+                launcherName: "Wolo Code",
                 assetStatements: '[{ "relation": ["delegate_permission/common.handle_all_urls"], ' +
                         '"target": {"namespace": "web", "site": "https://wolo.codes"}}]'
         ]
