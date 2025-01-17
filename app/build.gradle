@@ -3,20 +3,20 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         release {
-            storeFile file('C:\\Users\\Ujjwal\\Projects\\WCode\\Wolo\\App\\Android\\KS\\Wolo.jks')
+            storeFile file('G:\\App\\Android\\KS\\Wolo.jks')
             storePassword 'WhiteDeath!SuperDuper'
             keyAlias 'key0'
             keyPassword 'DasBoot!SuperDuper'
         }
     }
-    compileSdkVersion 33
+    compileSdk 34
 
     defaultConfig {
         applicationId "codes.wolo.droid"
         minSdkVersion 16
-        targetSdkVersion 33
-        versionCode 5
-        versionName "1.2.2"
+        targetSdkVersion 34
+        versionCode 6
+        versionName '1.2.3'
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
 
